@@ -24,16 +24,22 @@ iris = np.genfromtxt('iris.csv', delimiter =',')
 header = ["Sepal length (cm)","Sepal width (cm)","Petal length (cm)","Petal width (cm)","Class"]
 
 
-# select first column from iris
+print("The following is the list of column headers in the iris dataset.")
+for item in header:
+    print(f"\t {item}")
 
+print()
+print("The following sections list items of significance about each column containing numerical data to 2dp.")     
+print()
 
 
 # Following loop will print the mean, median, mode and standard deviation of columns 0 - 3
 for i in range (3):
     print(header[i])
     print(f"\t The most common value is {stat.mode(iris[:,i])}.")
-    print(f"\t The median is {np.median(iris[:,i])}.")
-    print(f"\t The average value is {np.mean(iris[:,i])}.")
-    print(f"\t The maximum value is {np.max(iris[:,i])}.")
-    print(f"\t The minimum value is {np.min(iris[:,i])}.")
-    print(f"\t The standard deviation is {np.std(iris[:,i])}.")
+    print(f"\t The median is {round(np.median(iris[:,i]),2)}.")
+    print(f"\t The average value is {round(np.mean(iris[:,i]),2)}.")
+    print(f"\t The maximum value is {round(np.max(iris[:,i]),2)}.")
+    print(f"\t The minimum value is {round(np.min(iris[:,i]),2)}.")
+    print(f"\t The standard deviation is {round(np.std(iris[:,i]),2)}.")
+    print()
