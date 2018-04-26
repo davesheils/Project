@@ -21,4 +21,14 @@ print()
 print("the following is the subset of the dataset where class = 'Iris-versicolor:\n")
 print(iris[iris['Class'] == 'Iris-versicolor'])
 
+print("The following code will use SQL type features to group data by class and tell us facts of significance about each of the three classes of Iris")
+print()
+print("The following simply returns the number of records/observations by class")
+print(iris.groupby('Class').size())
+print()
+print("The following returns the mean of each column grouped by class")
+print()
+print(iris.groupby('Class').agg({'Sepal length': np.mean, 'Sepal width': np.mean, 'Petal length': np.mean, 'Petal width':np.mean}))
 
+
+# Next Pivot tables in pandas
