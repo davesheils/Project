@@ -26,11 +26,11 @@ For the final submission, they have been consolidated into a single Project 2018
 https://github.com/davesheils/Project/blob/master/project2018.py
 
 In order to run this script, the user should be able to run python 3.6. In addition, they should also have installed python via Anaconda or a similar package that contains the following modules:
-numpy
-statistics
-matplotpy.pyplot
-pandas
-seaborn
+* numpy
+* statistics
+* matplotpy.pyplot
+* pandas
+* seaborn
 
 ## Findings
 
