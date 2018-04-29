@@ -103,7 +103,10 @@ The next section used the describe and groupby methods to return key statistics 
 * Iris-versicolor   50.0  1.326  0.197753  1.0  1.2  1.3  1.5  1.8
 * Iris-virginica    50.0  2.026  0.274650  1.4  1.8  2.0  2.3  2.5
 
-### (3) Data Visualisation:
+Please run python script or see screenshot https://github.com/davesheils/Project/blob/master/Data%20Table.png to see above data in tabulated form.
+
+
+###(3) Data Visualisation:
 
 This is the most underdeveloped section of the project. The outputs of this section is three plots:
 Simple scatterplot:
