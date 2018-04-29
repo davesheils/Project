@@ -116,22 +116,22 @@ Note, the code used for this last plot borrows significantly from the following:
 
 ## References
 Background to iris data set:
-https://en.wikipedia.org/wiki/Iris_flower_data_set#cite_note-anderson35-3
+* https://en.wikipedia.org/wiki/Iris_flower_data_set#cite_note-anderson35-3
 Source data downloaded from:
-http://archive.ics.uci.edu/ml/datasets/Iris
+* http://archive.ics.uci.edu/ml/datasets/Iris
 Seaborn homepage:
-https://seaborn.pydata.org/index.html
+* https://seaborn.pydata.org/index.html
 Pandas homepage:
-https://pandas.pydata.org/
+* https://pandas.pydata.org/
 Matplotpy home page:
-https://matplotlib.org/index.html
+* https://matplotlib.org/index.html
 The following was useful in developing the clearscreen() function:
-https://stackoverflow.com/questions/110362/how-can-i-find-the-current-os-in-python?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+* https://stackoverflow.com/questions/110362/how-can-i-find-the-current-os-in-python?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
 The following helped the use of the describe in conjuntion with groupby to output summary stats on each numerical column in the dataset:
-https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.describe.html
-https://datascience.stackexchange.com/questions/22266/summary-statistics-by-category-using-python
+* https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.describe.html
+* https://datascience.stackexchange.com/questions/22266/summary-statistics-by-category-using-python
 The following was used as a model for the code to create the final set of boxplots:
-https://www.kaggle.com/vasanthreddy/data-visualisation-of-iris-dataset
+* https://www.kaggle.com/vasanthreddy/data-visualisation-of-iris-dataset
 
 
 
