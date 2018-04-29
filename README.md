@@ -35,7 +35,7 @@ In order to run this script, the user should be able to run python 3.6. In addit
 ## Findings
 
 The following are the summary statistics found by the python script:
-(1) Using Numpy:
+### (1) Using Numpy:
 The following sections list items of significance about each column containing numerical data to 2dp.
 
 **Sepal length (cm)**
@@ -70,7 +70,7 @@ The following sections list items of significance about each column containing n
 * The minimum value is 0.1.
 * The standard deviation is 0.76.
 
-**(2) Using pandas:**
+###**(2) Using pandas:**
 The first investigation simply returns the number of records/observations by class
 Class
 Iris-setosa        50
@@ -81,39 +81,40 @@ The next section used the describe and groupby methods to return key statistics 
 Sepal length
                  count   mean       std  min    25%  50%  75%  max
 Class                                                             
-Iris-setosa       50.0  5.006  0.352490  4.3  4.800  5.0  5.2  5.8
-Iris-versicolor   50.0  5.936  0.516171  4.9  5.600  5.9  6.3  7.0
-Iris-virginica    50.0  6.588  0.635880  4.9  6.225  6.5  6.9  7.9
+* Iris-setosa       50.0  5.006  0.352490  4.3  4.800  5.0  5.2  5.8
+* Iris-versicolor   50.0  5.936  0.516171  4.9  5.600  5.9  6.3  7.0
+* Iris-virginica    50.0  6.588  0.635880  4.9  6.225  6.5  6.9  7.9
 
 Sepal width
                  count   mean       std  min    25%  50%    75%  max
 Class                                                               
-Iris-setosa       50.0  3.418  0.381024  2.3  3.125  3.4  3.675  4.4
-Iris-versicolor   50.0  2.770  0.313798  2.0  2.525  2.8  3.000  3.4
-Iris-virginica    50.0  2.974  0.322497  2.2  2.800  3.0  3.175  3.8
+* Iris-setosa       50.0  3.418  0.381024  2.3  3.125  3.4  3.675  4.4
+* Iris-versicolor   50.0  2.770  0.313798  2.0  2.525  2.8  3.000  3.4
+* Iris-virginica    50.0  2.974  0.322497  2.2  2.800  3.0  3.175  3.8
 
 Petal length
                  count   mean       std  min  25%   50%    75%  max
 Class                                                              
-Iris-setosa       50.0  1.464  0.173511  1.0  1.4  1.50  1.575  1.9
-Iris-versicolor   50.0  4.260  0.469911  3.0  4.0  4.35  4.600  5.1
-Iris-virginica    50.0  5.552  0.551895  4.5  5.1  5.55  5.875  6.9
+* Iris-setosa       50.0  1.464  0.173511  1.0  1.4  1.50  1.575  1.9
+* Iris-versicolor   50.0  4.260  0.469911  3.0  4.0  4.35  4.600  5.1
+* Iris-virginica    50.0  5.552  0.551895  4.5  5.1  5.55  5.875  6.9
 
 Petal width
                  count   mean       std  min  25%  50%  75%  max
 Class                                                           
-Iris-setosa       50.0  0.244  0.107210  0.1  0.2  0.2  0.3  0.6
-Iris-versicolor   50.0  1.326  0.197753  1.0  1.2  1.3  1.5  1.8
-Iris-virginica    50.0  2.026  0.274650  1.4  1.8  2.0  2.3  2.5
-(3) Data Visualisation:
+* Iris-setosa       50.0  0.244  0.107210  0.1  0.2  0.2  0.3  0.6
+* Iris-versicolor   50.0  1.326  0.197753  1.0  1.2  1.3  1.5  1.8
+* Iris-virginica    50.0  2.026  0.274650  1.4  1.8  2.0  2.3  2.5
+
+### (3) Data Visualisation:
 
 This is the most underdeveloped section of the project. The outputs of this section is three plots:
 Simple scatterplot:
-https://github.com/davesheils/Project/blob/master/irisScatterplot.png
+* https://github.com/davesheils/Project/blob/master/irisScatterplot.png
 Simple boxplot:
-https://github.com/davesheils/Project/blob/master/irisSimpleBoxPlot.png
+* https://github.com/davesheils/Project/blob/master/irisSimpleBoxPlot.png
 Four boxplots, one for each numerical column:
-https://github.com/davesheils/Project/blob/master/iris4Boxplots1.png
+* https://github.com/davesheils/Project/blob/master/iris4Boxplots1.png
 Note, the code used for this last plot borrows significantly from the following: https://www.kaggle.com/vasanthreddy/data-visualisation-of-iris-dataset
 
 ## References
