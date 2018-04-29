@@ -70,7 +70,7 @@ The following sections list items of significance about each column containing n
 * The minimum value is 0.1.
 * The standard deviation is 0.76.
 
-###**(2) Using pandas:**
+### (2) Using pandas:
 The first investigation simply returns the number of records/observations by class
 Class
 Iris-setosa        50
@@ -106,7 +106,7 @@ The next section used the describe and groupby methods to return key statistics 
 Please run python script or see screenshot https://github.com/davesheils/Project/blob/master/Data%20Table.png to see above data in tabulated form.
 
 
-###(3) Data Visualisation:
+### (3) Data Visualisation:
 
 This is the most underdeveloped section of the project. The outputs of this section is three plots:
 Simple scatterplot:
