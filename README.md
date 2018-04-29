@@ -38,39 +38,39 @@ The following are the summary statistics found by the python script:
 (1) Using Numpy:
 The following sections list items of significance about each column containing numerical data to 2dp.
 
-Sepal length (cm)
-	 The most common value is 5.0.
-	 The median is 5.8.
-	 The average value is 5.84.
-	 The maximum value is 7.9.
-	 The minimum value is 4.3.
-	 The standard deviation is 0.83.
+**Sepal length (cm)**
+The most common value is 5.0.
+The median is 5.8.
+The average value is 5.84.
+The maximum value is 7.9.
+The minimum value is 4.3.
+The standard deviation is 0.83.
 
-Sepal width (cm)
-	 The most common value is 3.0.
-	 The median is 3.0.
-	 The average value is 3.05.
-	 The maximum value is 4.4.
-	 The minimum value is 2.0.
-	 The standard deviation is 0.43.
+**Sepal width (cm)**
+The most common value is 3.0.
+The median is 3.0.
+The average value is 3.05.
+The maximum value is 4.4.
+The minimum value is 2.0.
+The standard deviation is 0.43.
 
-Petal length (cm)
-	 The most common value is 1.5.
-	 The median is 4.35.
-	 The average value is 3.76.
-	 The maximum value is 6.9.
-	 The minimum value is 1.0.
-	 The standard deviation is 1.76.
+**Petal length (cm)**
+The most common value is 1.5.
+The median is 4.35.
+The average value is 3.76.
+The maximum value is 6.9.
+The minimum value is 1.0.
+The standard deviation is 1.76.
 
-Petal width (cm)
-	 The most common value is 0.2.
-	 The median is 1.3.
-	 The average value is 1.2.
-	 The maximum value is 2.5.
-	 The minimum value is 0.1.
-	 The standard deviation is 0.76.
+**Petal width (cm)**
+The most common value is 0.2.
+The median is 1.3.
+The average value is 1.2.
+The maximum value is 2.5.
+The minimum value is 0.1.
+The standard deviation is 0.76.
 
-(2) Using pandas:
+**(2) Using pandas:**
 The first investigation simply returns the number of records/observations by class
 Class
 Iris-setosa        50
