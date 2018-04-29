@@ -43,7 +43,7 @@ print()
 
 
 # Following loop will print the mean, median, mode and standard deviation of columns 0 - 3
-for i in range (3):
+for i in range (4):
     print(header[i])
     print(f"\t The most common value is {stat.mode(iris[:,i])}.")
     print(f"\t The median is {round(np.median(iris[:,i]),2)}.")
@@ -82,7 +82,7 @@ print()
 # Select contents of the frame that meet specific criteria
 print("The following is the first five records of subset of the dataset where class = 'Iris-versicolor:\n")
 print(iris[iris['Class'] == 'Iris-versicolor'].head())
-
+# https://datascience.stackexchange.com/questions/22266/summary-statistics-by-category-using-python
 print("The following code will use the groupby method to group data by class and tell us facts of significance about each of the three classes of Iris")
 print("The following simply returns the number of records/observations by class")
 print()
